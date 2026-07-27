@@ -1,77 +1,31 @@
-# React + TypeScript + Vite
+# 💎 Gemcheck Web (Landing Page)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene exclusivamente el código fuente de la **Landing Page** oficial para **Gemcheck**, el CLI amigable diseñado para desarrolladores que desean auditar y cuidar la salud de sus proyectos de forma rápida.
 
-Currently, two official plugins are available:
+> **Nota:** Si estás buscando el código fuente de la herramienta CLI en sí, dirígete al repositorio principal: [yohanvillarp/gemcheck](https://github.com/yohanvillarp/gemcheck).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Desarrollo Local
 
-## React Compiler
+Para correr este proyecto en tu entorno local, asegúrate de tener `pnpm` instalado:
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/yohanvillarp/gemcheck-web.git
+   cd gemcheck-web
+   ```
 
-Note: This will impact Vite dev & build performances.
+2. Instala las dependencias:
+   ```bash
+   pnpm install
+   ```
 
-## Expanding the ESLint configuration
+3. Inicia el servidor de desarrollo:
+   ```bash
+   pnpm run dev
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+4. Abre `http://localhost:5173` en tu navegador.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
+*Hecho con 🤍 y alto contraste.*

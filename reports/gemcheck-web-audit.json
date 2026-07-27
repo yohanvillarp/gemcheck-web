@@ -1,0 +1,143 @@
+{
+  "projectName": "C:\\Users\\yohan\\myspace\\lab\\active\\gemcheck-web",
+  "metrics": {
+    "tdr": 0,
+    "totalLinesOfCode": 390,
+    "technicalDebtInMinutes": 0,
+    "mcCabe": [
+      1,
+      1,
+      4,
+      3,
+      2,
+      1,
+      1,
+      3,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      1,
+      1
+    ],
+    "maintainabilityIndex": 100,
+    "duplications": 0.28
+  },
+  "timestamp": "2026-07-27T07:54:45.436Z",
+  "fileMetrics": [
+    {
+      "filePath": "C:\\Users\\yohan\\myspace\\lab\\active\\gemcheck-web\\eslint.config.js",
+      "linesOfCode": 21,
+      "codeSmells": 0,
+      "debtMinutes": 0,
+      "complexity": [
+        1
+      ]
+    },
+    {
+      "filePath": "C:\\Users\\yohan\\myspace\\lab\\active\\gemcheck-web\\src\\app\\App.tsx",
+      "linesOfCode": 11,
+      "codeSmells": 0,
+      "debtMinutes": 0,
+      "complexity": [
+        1
+      ]
+    },
+    {
+      "filePath": "C:\\Users\\yohan\\myspace\\lab\\active\\gemcheck-web\\src\\app\\providers\\ThemeProvider.tsx",
+      "linesOfCode": 45,
+      "codeSmells": 3,
+      "debtMinutes": 0,
+      "complexity": [
+        4,
+        3,
+        2
+      ]
+    },
+    {
+      "filePath": "C:\\Users\\yohan\\myspace\\lab\\active\\gemcheck-web\\src\\main.tsx",
+      "linesOfCode": 9,
+      "codeSmells": 0,
+      "debtMinutes": 0,
+      "complexity": [
+        1
+      ]
+    },
+    {
+      "filePath": "C:\\Users\\yohan\\myspace\\lab\\active\\gemcheck-web\\src\\pages\\Inicio\\VistaInicio.tsx",
+      "linesOfCode": 16,
+      "codeSmells": 0,
+      "debtMinutes": 0,
+      "complexity": [
+        1
+      ]
+    },
+    {
+      "filePath": "C:\\Users\\yohan\\myspace\\lab\\active\\gemcheck-web\\src\\shared\\ui\\Logo\\Logo.tsx",
+      "linesOfCode": 31,
+      "codeSmells": 1,
+      "debtMinutes": 0,
+      "complexity": [
+        3
+      ]
+    },
+    {
+      "filePath": "C:\\Users\\yohan\\myspace\\lab\\active\\gemcheck-web\\src\\widgets\\BarraNavegacion\\BarraNavegacion.tsx",
+      "linesOfCode": 36,
+      "codeSmells": 1,
+      "debtMinutes": 0,
+      "complexity": [
+        2
+      ]
+    },
+    {
+      "filePath": "C:\\Users\\yohan\\myspace\\lab\\active\\gemcheck-web\\src\\widgets\\CabeceraPrincipal\\CabeceraPrincipal.tsx",
+      "linesOfCode": 68,
+      "codeSmells": 2,
+      "debtMinutes": 0,
+      "complexity": [
+        2,
+        2
+      ]
+    },
+    {
+      "filePath": "C:\\Users\\yohan\\myspace\\lab\\active\\gemcheck-web\\src\\widgets\\DemostracionTerminal\\DemostracionTerminal.tsx",
+      "linesOfCode": 28,
+      "codeSmells": 0,
+      "debtMinutes": 0,
+      "complexity": [
+        1
+      ]
+    },
+    {
+      "filePath": "C:\\Users\\yohan\\myspace\\lab\\active\\gemcheck-web\\src\\widgets\\PiePagina\\PiePagina.tsx",
+      "linesOfCode": 55,
+      "codeSmells": 2,
+      "debtMinutes": 0,
+      "complexity": [
+        2,
+        2
+      ]
+    },
+    {
+      "filePath": "C:\\Users\\yohan\\myspace\\lab\\active\\gemcheck-web\\src\\widgets\\TarjetasCaracteristicas\\TarjetasCaracteristicas.tsx",
+      "linesOfCode": 52,
+      "codeSmells": 0,
+      "debtMinutes": 0,
+      "complexity": [
+        1
+      ]
+    },
+    {
+      "filePath": "C:\\Users\\yohan\\myspace\\lab\\active\\gemcheck-web\\vite.config.ts",
+      "linesOfCode": 18,
+      "codeSmells": 0,
+      "debtMinutes": 0,
+      "complexity": [
+        1
+      ]
+    }
+  ]
+}

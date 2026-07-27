@@ -12,7 +12,7 @@ export const PiePagina = () => {
   const [copiado, setCopiado] = useState(false);
 
   const copiarComando = () => {
-    navigator.clipboard.writeText('npm install -g @gemcheck/cli');
+    navigator.clipboard.writeText('npm install -g @nikelyh/gemcheck');
     setCopiado(true);
     setTimeout(() => setCopiado(false), 2000);
   };

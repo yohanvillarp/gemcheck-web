@@ -1,0 +1,165 @@
+{
+  "duplicates": [
+    {
+      "firstFile": {
+        "end": 30,
+        "endLoc": {
+          "column": 5,
+          "line": 30,
+          "position": 918
+        },
+        "name": "src\\widgets\\CabeceraPrincipal\\CabeceraPrincipal.tsx",
+        "start": 20,
+        "startLoc": {
+          "column": 31,
+          "line": 20,
+          "position": 668
+        }
+      },
+      "format": "tsx",
+      "fragment": "export const CabeceraPrincipal = () => {\n  const [copiado, setCopiado] = useState(false);\n\n  const copiarComando = () => {\n    navigator.clipboard.writeText('npm install -g @nikelyh/gemcheck');\n    setCopiado(true);\n    setTimeout(() => setCopiado(false), 2000);\n  };\n\n  return (\n    <section className=\"flex flex-col items-center justify-center text-center py-24 px-4 sm:px-6 lg:px-8 border-b-4 border-black dark:border-white\">",
+      "lines": 11,
+      "secondFile": {
+        "end": 21,
+        "endLoc": {
+          "column": 5,
+          "line": 21,
+          "position": 823
+        },
+        "name": "src\\widgets\\PiePagina\\PiePagina.tsx",
+        "start": 11,
+        "startLoc": {
+          "column": 23,
+          "line": 11,
+          "position": 573
+        }
+      },
+      "tokens": 56
+    }
+  ],
+  "statistics": {
+    "detectionDate": "2026-07-27T07:54:45.382Z",
+    "formats": {
+      "bash": {
+        "clones": 0,
+        "duplicatedLines": 0,
+        "duplicatedTokens": 0,
+        "lines": 644,
+        "newClones": 0,
+        "newDuplicatedLines": 0,
+        "percentage": 0.0,
+        "percentageTokens": 0.0,
+        "sources": 9,
+        "tokens": 2346
+      },
+      "css": {
+        "clones": 0,
+        "duplicatedLines": 0,
+        "duplicatedTokens": 0,
+        "lines": 34,
+        "newClones": 0,
+        "newDuplicatedLines": 0,
+        "percentage": 0.0,
+        "percentageTokens": 0.0,
+        "sources": 1,
+        "tokens": 306
+      },
+      "javascript": {
+        "clones": 0,
+        "duplicatedLines": 0,
+        "duplicatedTokens": 0,
+        "lines": 22,
+        "newClones": 0,
+        "newDuplicatedLines": 0,
+        "percentage": 0.0,
+        "percentageTokens": 0.0,
+        "sources": 1,
+        "tokens": 93
+      },
+      "json": {
+        "clones": 0,
+        "duplicatedLines": 0,
+        "duplicatedTokens": 0,
+        "lines": 92,
+        "newClones": 0,
+        "newDuplicatedLines": 0,
+        "percentage": 0.0,
+        "percentageTokens": 0.0,
+        "sources": 3,
+        "tokens": 357
+      },
+      "markup": {
+        "clones": 0,
+        "duplicatedLines": 0,
+        "duplicatedTokens": 0,
+        "lines": 47,
+        "newClones": 0,
+        "newDuplicatedLines": 0,
+        "percentage": 0.0,
+        "percentageTokens": 0.0,
+        "sources": 3,
+        "tokens": 520
+      },
+      "perl": {
+        "clones": 0,
+        "duplicatedLines": 0,
+        "duplicatedTokens": 0,
+        "lines": 174,
+        "newClones": 0,
+        "newDuplicatedLines": 0,
+        "percentage": 0.0,
+        "percentageTokens": 0.0,
+        "sources": 1,
+        "tokens": 696
+      },
+      "tsx": {
+        "clones": 1,
+        "duplicatedLines": 10,
+        "duplicatedTokens": 56,
+        "lines": 382,
+        "newClones": 0,
+        "newDuplicatedLines": 0,
+        "percentage": 2.6178010471204187,
+        "percentageTokens": 2.8311425682507583,
+        "sources": 9,
+        "tokens": 1978
+      },
+      "typescript": {
+        "clones": 0,
+        "duplicatedLines": 0,
+        "duplicatedTokens": 0,
+        "lines": 19,
+        "newClones": 0,
+        "newDuplicatedLines": 0,
+        "percentage": 0.0,
+        "percentageTokens": 0.0,
+        "sources": 1,
+        "tokens": 86
+      },
+      "yaml": {
+        "clones": 0,
+        "duplicatedLines": 0,
+        "duplicatedTokens": 0,
+        "lines": 2155,
+        "newClones": 0,
+        "newDuplicatedLines": 0,
+        "percentage": 0.0,
+        "percentageTokens": 0.0,
+        "sources": 1,
+        "tokens": 11308
+      }
+    },
+    "total": {
+      "clones": 1,
+      "duplicatedLines": 10,
+      "duplicatedTokens": 56,
+      "lines": 3569,
+      "newClones": 0,
+      "newDuplicatedLines": 0,
+      "percentage": 0.2801905295601009,
+      "percentageTokens": 0.3165630299604296,
+      "sources": 29,
+      "tokens": 17690
+    }
+  }
+}

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Logo } from '@/shared/ui/Logo/Logo';
 import { usarTema } from '@/app/providers/ThemeProvider';
 import { Moon, Sun } from 'lucide-react';

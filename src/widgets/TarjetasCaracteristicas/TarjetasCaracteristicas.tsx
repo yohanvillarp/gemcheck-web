@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Activity, Search, ShieldAlert, GitBranch } from 'lucide-react';
 
 const CARACTERISTICAS = [

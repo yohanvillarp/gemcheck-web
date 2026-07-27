@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { BookOpen, Terminal } from 'lucide-react';
 
 const GithubIcon = ({ size = 24 }: { size?: number }) => (

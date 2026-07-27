@@ -1,9 +1,8 @@
-import React from 'react';
 import { BarraNavegacion } from '@/widgets/BarraNavegacion/BarraNavegacion';
 import { CabeceraPrincipal } from '@/widgets/CabeceraPrincipal/CabeceraPrincipal';
-import { TarjetasCaracteristicas } from '@/widgets/TarjetasCaracteristicas/TarjetasCaracteristicas';
 import { DemostracionTerminal } from '@/widgets/DemostracionTerminal/DemostracionTerminal';
 import { PiePagina } from '@/widgets/PiePagina/PiePagina';
+import { TarjetasCaracteristicas } from '@/widgets/TarjetasCaracteristicas/TarjetasCaracteristicas';
 
 export const VistaInicio = () => {
   return (

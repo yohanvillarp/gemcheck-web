@@ -3,24 +3,24 @@ import { Activity, Search, ShieldAlert, GitBranch } from 'lucide-react';
 
 const CARACTERISTICAS = [
   {
-    titulo: 'Encuentra Cuellos de Botella',
-    descripcion: 'Identifica rápidamente qué archivos sufren más cambios y refactorizaciones (Hotspots).',
-    icono: Activity,
+    titulo: 'Análisis Evolutivo Git',
+    descripcion: 'Descubre Hotspots, Bus Factor y Acoplamiento Lógico leyendo tu historial sin configuraciones.',
+    icono: GitBranch,
   },
   {
-    titulo: 'Descubre Dependencias Ocultas',
-    descripcion: 'Visualiza el acoplamiento real entre módulos que no tenías mapeados mentalmente.',
+    titulo: 'Análisis Estático (JSCPD)',
+    descripcion: 'Encuentra código duplicado (TDR) al instante con un sistema de caché súper rápido.',
     icono: Search,
   },
   {
-    titulo: 'Mide el Bus Factor',
-    descripcion: '¿Qué pasa si el desarrollador clave se va de vacaciones? Descubre los puntos críticos.',
-    icono: ShieldAlert,
+    titulo: 'Dashboard Visual',
+    descripcion: 'Levanta una interfaz gráfica interactiva en localhost para explorar los reportes.',
+    icono: Activity,
   },
   {
-    titulo: 'Integración Natural en Git',
-    descripcion: 'Funciona directamente leyendo tu historial de git, sin necesidad de configuraciones pesadas.',
-    icono: GitBranch,
+    titulo: 'Configuración Dinámica',
+    descripcion: 'Ajusta umbrales y reglas fácilmente; todo se guarda de forma persistente en SQLite.',
+    icono: ShieldAlert,
   }
 ];
 

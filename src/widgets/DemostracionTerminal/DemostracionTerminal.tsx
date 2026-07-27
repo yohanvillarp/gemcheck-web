@@ -16,13 +16,16 @@ export const DemostracionTerminal = () => {
           </div>
           <div className="p-6 font-mono text-white text-sm sm:text-base md:text-lg leading-relaxed overflow-x-auto whitespace-pre">
             <p className="mb-2">
-              <span className="text-green-400">~/proyecto</span> $ gemcheck git hotspots
+              <span className="text-green-400">~/proyecto</span> $ gemcheck scan --ui
             </p>
-            <p className="text-gray-400 mb-4">Analizando el historial de commits...</p>
-            <p className="mb-1"><span className="text-yellow-400">[ALERTA]</span> src/App.tsx - 145 cambios (Alto acoplamiento)</p>
-            <p className="mb-1"><span className="text-red-400">[CRÍTICO]</span> src/utils/api.ts - 340 cambios (Deuda técnica extrema)</p>
-            <p className="mb-4"><span className="text-blue-400">[INFO]</span> src/components/Button.tsx - 12 cambios (Estable)</p>
-            <p className="text-green-400 font-bold">Análisis completado en 1.2s</p>
+            <p className="text-gray-400 mb-1">➤ Iniciando análisis de gemcheck...</p>
+            <p className="text-gray-400 mb-2">⠋ Analizando...⚡ [CACHÉ] No se detectaron cambios en el código. Cargando reporte anterior...</p>
+            <p className="mb-4 text-green-400 font-bold">✔ [OK] Análisis completado con éxito!</p>
+            <p className="mb-1 text-white">Proyecto: <span className="text-gray-300">~/proyecto</span></p>
+            <p className="mb-1 text-white">TDR: <span className="text-yellow-400 font-bold">0.78%</span></p>
+            <p className="text-gray-400 mb-4">Reportes guardados en ./reports</p>
+            <p className="mb-1 text-blue-400 font-bold">[UI] Servidor del Dashboard iniciado en http://localhost:3333</p>
+            <p className="text-blue-400">[UI] Abriendo navegador... (Presiona Ctrl+C para detener)</p>
           </div>
         </div>
       </div>

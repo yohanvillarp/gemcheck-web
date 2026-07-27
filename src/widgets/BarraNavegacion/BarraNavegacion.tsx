@@ -1,7 +1,7 @@
-
-import { Logo } from '@/shared/ui/Logo/Logo';
 import { usarTema } from '@/app/providers/ThemeProvider';
-import { Moon, Sun } from 'lucide-react';
+import { Logo } from '@/shared/ui/Logo/Logo';
+import { MarkGithubIcon } from '@primer/octicons-react';
+import { BookOpen, Moon, Sun } from 'lucide-react';
 
 export const BarraNavegacion = () => {
   const { tema, alternarTema } = usarTema();
@@ -17,10 +17,12 @@ export const BarraNavegacion = () => {
       
       <nav className="flex items-center gap-6">
         <div className="hidden sm:flex items-center gap-6 mr-2">
-          <a href="#documentacion" className="font-bold uppercase tracking-wider hover:underline underline-offset-8 decoration-4">
+          <a href="#documentacion" className="flex items-center gap-2 font-bold uppercase tracking-wider hover:underline underline-offset-8 decoration-4">
+            <BookOpen size={20} strokeWidth={2.5} />
             Docs
           </a>
-          <a href="https://github.com/yohanvillarp/gemcheck" target="_blank" rel="noreferrer" className="font-bold uppercase tracking-wider hover:underline underline-offset-8 decoration-4">
+          <a href="https://github.com/yohanvillarp/gemcheck" target="_blank" rel="noreferrer" className="flex items-center gap-2 font-bold uppercase tracking-wider hover:underline underline-offset-8 decoration-4">
+            <MarkGithubIcon size={20} />
             GitHub
           </a>
         </div>

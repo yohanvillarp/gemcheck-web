@@ -33,11 +33,11 @@ export const PiePagina = () => {
             onClick={copiarComando}
             className="flex items-center gap-2 bg-gray-100 dark:bg-gray-900 px-4 py-2 border-2 border-black dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors duration-300 font-mono text-sm font-bold shadow-[4px_4px_0_0_rgba(0,0,0,1)] dark:shadow-[4px_4px_0_0_rgba(255,255,255,1)]"
           >
-            $ npm i -g @gemcheck/cli
+            $ npm i -g @nikelyh/gemcheck
             {copiado ? <Check size={16} /> : <Copy size={16} />}
           </button>
           <a
-            href="https://www.npmjs.com/package/@gemcheck/cli"
+            href="https://www.npmjs.com/package/@nikelyh/gemcheck"
             target="_blank"
             rel="noreferrer"
             className="flex items-center gap-2 font-bold uppercase tracking-wider hover:underline underline-offset-8 decoration-4"

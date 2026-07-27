@@ -1,5 +1,5 @@
-
-import { BookOpen, Terminal } from 'lucide-react';
+import { useState } from 'react';
+import { BookOpen, Terminal, Copy, Check } from 'lucide-react';
 
 const GithubIcon = ({ size = 24 }: { size?: number }) => (
   <svg
@@ -18,6 +18,14 @@ const GithubIcon = ({ size = 24 }: { size?: number }) => (
 );
 
 export const CabeceraPrincipal = () => {
+  const [copiado, setCopiado] = useState(false);
+
+  const copiarComando = () => {
+    navigator.clipboard.writeText('npm install -g @gemcheck/cli');
+    setCopiado(true);
+    setTimeout(() => setCopiado(false), 2000);
+  };
+
   return (
     <section className="flex flex-col items-center justify-center text-center py-24 px-4 sm:px-6 lg:px-8 border-b-4 border-black dark:border-white">
       <div className="max-w-4xl mx-auto flex flex-col items-center">
@@ -54,10 +62,14 @@ export const CabeceraPrincipal = () => {
           </a>
         </div>
 
-        <div className="flex items-center justify-center gap-4 bg-gray-100 dark:bg-gray-900 border-4 border-black dark:border-white px-6 py-4 shadow-[6px_6px_0_0_rgba(0,0,0,1)] dark:shadow-[6px_6px_0_0_rgba(255,255,255,1)]">
+        <button 
+          onClick={copiarComando}
+          className="flex items-center justify-center gap-4 bg-gray-100 dark:bg-gray-900 border-4 border-black dark:border-white px-6 py-4 shadow-[6px_6px_0_0_rgba(0,0,0,1)] dark:shadow-[6px_6px_0_0_rgba(255,255,255,1)] hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors duration-300 cursor-pointer"
+        >
           <span className="text-gray-500 font-mono font-bold">$</span>
-          <code className="font-mono text-lg font-bold">npm install -g @gemcheck/cli</code>
-        </div>
+          <code className="font-mono text-lg font-bold mr-2">npm install -g @gemcheck/cli</code>
+          {copiado ? <Check size={20} /> : <Copy size={20} />}
+        </button>
       </div>
     </section>
   );

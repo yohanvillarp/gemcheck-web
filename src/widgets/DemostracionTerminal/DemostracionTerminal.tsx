@@ -16,7 +16,7 @@ export const DemostracionTerminal = () => {
           </div>
           <div className="p-6 font-mono text-white text-sm sm:text-base md:text-lg leading-relaxed overflow-x-auto whitespace-pre">
             <p className="mb-2">
-              <span className="text-green-400">~/proyecto</span> $ npx gemcheck git hotspots
+              <span className="text-green-400">~/proyecto</span> $ gemcheck git hotspots
             </p>
             <p className="text-gray-400 mb-4">Analizando el historial de commits...</p>
             <p className="mb-1"><span className="text-yellow-400">[ALERTA]</span> src/App.tsx - 145 cambios (Alto acoplamiento)</p>

@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@primer/octicons-react':
+        specifier: ^19.31.0
+        version: 19.31.0(react@19.2.8)
       '@tailwindcss/vite':
         specifier: ^4.3.3
         version: 4.3.3(vite@8.1.5(@types/node@24.13.3)(jiti@2.7.0))
@@ -234,6 +237,12 @@ packages:
 
   '@oxc-project/types@0.139.0':
     resolution: {integrity: sha512-r9gHphtCs+1M7J0pw6Sn/hh/Wpa/iQrOOkrNAlVLF/gHq+/CJmHIWKKUUhdWjcD6CIa8idarspCsASiXCXvFUw==}
+
+  '@primer/octicons-react@19.31.0':
+    resolution: {integrity: sha512-gY0cteylJ4jDFOaQsgkOo9zLyh2zQEroY6pfj5kNxdb0Svb519kkvv/FwBqPitl4PNGtvD4579QCe5I8OZFzGA==}
+    engines: {node: '>=8'}
+    peerDependencies:
+      react: '>=16.3'
 
   '@rolldown/binding-android-arm64@1.1.5':
     resolution: {integrity: sha512-lZg8fqIv2v7FF237bwMgzGZEJvGL79/s5knJ/i6FmsGF4XXlzccZ4jb+TrFIxtSSxFtIpdsgrPZeMk1I9AFcyQ==}
@@ -1367,6 +1376,10 @@ snapshots:
     optional: true
 
   '@oxc-project/types@0.139.0': {}
+
+  '@primer/octicons-react@19.31.0(react@19.2.8)':
+    dependencies:
+      react: 19.2.8
 
   '@rolldown/binding-android-arm64@1.1.5':
     optional: true

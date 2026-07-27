@@ -1,0 +1,16 @@
+
+# <tipo>(<ámbito>): <descripción corta en español>
+#
+# Tipos permitidos:
+#   feat     : Nueva característica
+#   fix      : Corrección de un error
+#   chore    : Tareas de mantenimiento, dependencias, config
+#   docs     : Cambios solo en la documentación
+#   style    : Cambios de formato (espacios, comas, etc.)
+#   refactor : Refactorización de código
+#   test     : Añadir o corregir pruebas
+#
+# Ejemplos:
+#   feat(auth): añadir login con Google
+#   fix(ui): corregir alineación del botón principal
+#   chore(setup): configuración inicial de FSD

@@ -1,0 +1,22 @@
+# Reglas del Proyecto
+
+- **Nomenclatura**: Utilizar nombres en **español** para variables, funciones, componentes y archivos, excepto cuando se trate de convenciones estándar del ecosistema (ej. nombres de carpetas de FSD como `pages`, `features`, librerías, hooks estándar de React, etc.).
+- **Casing**: Utilizar **PascalCase** para el nombramiento de archivos de componentes (ej. `BotonPrincipal.tsx`, `VistaUsuarios.tsx`) y para nombres de componentes en React.
+- **Tipado Estricto**: Nunca utilizar `any`. Definir siempre los tipos e interfaces de TypeScript de forma explícita.
+- **Arquitectura**: Respetar estrictamente **Feature-Sliced Design (FSD)**:
+  - `app/`: Configuración global, providers, estilos base.
+  - `pages/`: Componentes que representan rutas completas.
+  - `widgets/`: Componentes de UI complejos que unen features/entities.
+  - `features/`: Interacciones del usuario y casos de uso.
+  - `entities/`: Lógica y UI de entidades de negocio.
+  - `shared/`: UI genérica, utils, hooks compartidos, configuraciones.
+- **Commits y Contribuciones**: Utilizar **Conventional Commits** de forma escalar incluyendo el ámbito (scope) si aplica, y con los **mensajes siempre en español**.
+  - Formato: `tipo(ámbito?): mensaje descriptivo en español`
+  - **Tipos permitidos**:
+    - `feat`: Nueva característica o funcionalidad.
+    - `fix`: Corrección de errores.
+    - `chore`: Tareas de mantenimiento, actualización de dependencias, configuraciones (ej. `chore(setup): configuración inicial FSD`).
+    - `docs`: Cambios en la documentación.
+    - `style`: Cambios de formato (espacios, comas, etc.) que no afectan el código.
+    - `refactor`: Refactorización de código que no corrige errores ni añade características.
+    - `test`: Añadir o modificar pruebas.

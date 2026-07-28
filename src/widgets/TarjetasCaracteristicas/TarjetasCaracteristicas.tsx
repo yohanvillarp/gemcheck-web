@@ -1,5 +1,5 @@
 
-import { Activity, Search, ShieldAlert, GitBranch } from 'lucide-react';
+import { Activity, Search, Wand2, GitBranch } from 'lucide-react';
 
 const CARACTERISTICAS = [
   {
@@ -8,19 +8,19 @@ const CARACTERISTICAS = [
     icono: GitBranch,
   },
   {
-    titulo: 'Análisis Estático (JSCPD)',
-    descripcion: 'Encuentra código duplicado (TDR) al instante con un sistema de caché súper rápido.',
+    titulo: 'Análisis Estático y AST',
+    descripcion: 'Mide la complejidad ciclomática y cognitiva, y encuentra código duplicado al instante.',
     icono: Search,
   },
   {
     titulo: 'Dashboard Visual',
-    descripcion: 'Levanta una interfaz gráfica interactiva en localhost para explorar los reportes.',
+    descripcion: 'Explora un panel Neo-Brutalista interactivo en localhost para revisar y priorizar reportes.',
     icono: Activity,
   },
   {
-    titulo: 'Configuración Dinámica',
-    descripcion: 'Ajusta umbrales y reglas fácilmente; todo se guarda de forma persistente en SQLite.',
-    icono: ShieldAlert,
+    titulo: 'Triaje y Auto-Fix',
+    descripcion: 'Clasifica la deuda técnica por riesgo y limpia código automáticamente con jscodeshift.',
+    icono: Wand2,
   }
 ];
 

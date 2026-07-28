@@ -40,7 +40,7 @@ export const CabeceraPrincipal = () => {
         </h1>
         
         <p className="text-xl sm:text-2xl mb-12 max-w-2xl font-medium">
-          Gemcheck es un CLI amigable que te ayuda a medir la deuda técnica, encontrar cuellos de botella y descubrir dependencias ocultas en segundos.
+          Gemcheck es un CLI amigable que te ayuda a medir la deuda técnica, evaluar complejidad estructural (AST) y limpiar tu código con auto-fix en segundos.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 mb-12">
